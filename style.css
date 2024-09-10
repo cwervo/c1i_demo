@@ -4,3 +4,17 @@ body {
     font-family: 'IBM Plex Sans';
     font-size: 18pt;
 }
+
+a {
+    color: cyan;
+    word-wrap: break-word; /* Prevent long URLs from breaking layout */
+  }
+  
+  a:visited {
+    color: magenta;
+  }
+  
+  a:hover {
+    color: lavender;
+    letter-spacing: 1px;
+  }
